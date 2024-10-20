@@ -1,0 +1,22 @@
+.canvas-estilo {
+    border: 2px solid black; /* Borda do canvas */
+    background-color: lightgrey; /* Cor de fundo do canvas */
+    display: block; /* Faz o canvas ser um bloco */
+    margin: 20px auto; /* Margem para centralizar o canvas */
+    cursor:crosshair;
+}
+.title{
+    width: fit-content;
+    display: flex;
+    margin: auto;
+}
+.btn-container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    margin-inline: 30px
+}
